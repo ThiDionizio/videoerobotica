@@ -6,3 +6,23 @@ body {
   margin-bottom: 1000px; /*define a margem dos itens para BAIXO*/
   margin-top: 10px;
 }
+
+.chamada {
+  background: rgb(184, 146, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
