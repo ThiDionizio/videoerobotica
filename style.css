@@ -4,4 +4,5 @@ body {
   margin: 100px; /*define a margem dos itens para todos os lados*/
   font-family: "Chakra Petch", sans-serif; /*define a fonte dos itens de texto*/
   margin-bottom: 1000px; /*define a margem dos itens para BAIXO*/
+  margin-top: 10px;
 }
