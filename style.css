@@ -7,6 +7,13 @@ body {
   margin-top: 10px;
 }
 
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(42, 122, 228);
+}
+
 .chamada {
   background: rgb(184, 146, 213); /*cor de fundo*/
   padding-bottom: 80px; /*espaçamento interno dos itens em relação á base*/
@@ -25,4 +32,30 @@ h1 {
 
 p {
   font-size: 20px; /*tamanho da fonte*/
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+  color: rgb(42, 122, 228)
 }
